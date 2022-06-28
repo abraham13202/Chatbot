@@ -1,0 +1,79 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Wassup"],
+         "responses": ["Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "Me",
+         "patterns": ["Who are you?", "who is it?", "what is your name?", "what are you"],
+         "responses": ["Hi there, I am LARS. Nice to meet You!"],
+         "context": [""]
+        },
+
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "Ok"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [""," "],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How could you help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I will provide you with a safe way to go about the FFCS in VIT"],
+         "context": [""]
+        },
+        {"tag": "FFCS",
+         "patterns": ["FFCS", "What is FFCS?"],
+         "responses": ["FFCS is a Fully Flexible Credit System which allows the student to choose the number of credits for a particular semester, the tie slots for the subjects and the teachers "],
+         "context": [""]
+        },
+        {"tag": "Courses",
+         "patterns": ["Course wishlist", "wishlist"],
+         "responses": ["Course wish list is where a student can select its desired courses to pursue in the upcoming semester."],
+         "context": [""]
+        },
+        {"tag": "Min and max",
+         "patterns": ["Maximum Credits", "Minimum Credits"],
+         "responses": ["The maximum number of credits a student can choose for a particular semester 27 creds and the minimum is 19 creds"],
+         "context": [""]
+        },
+        {"tag": "CGPA",
+         "patterns": ["Is FFCS dependant on CGPA?", "CGPA dependent"],
+         "responses": ["FFCS does not depend on the CGPA of a student. It is mostly based on attendance. The first slot though will be given to 9 pointers"],
+         "context": [""]
+        },
+
+        {"tag": "slot time",
+         "patterns": ["How many slots are there?","Are there slots for ffcs?","How to register for ffcs?","How are slots allotted?"],
+         "responses": ["There are 6 slots for ffcs registration. \n 1. 9-10 A.M - 9 Pointers. \n 2. 10-11 A.M - 100% Attendance. \n 3. 11-12 Noon - Day Scholars with 90% attendance and 8+ cgpa. \n 4. 12-1 P.M - Rest day scholars and hostellers with 7+cgpa. \n 5. 1-2 P.M - Hostellers with 6+ cgpa. \n 6. 2-3 P.M - Rest of them."],
+         "context": [""]
+        },
+
+        {"tag": "Categories in ffcs",
+         "patterns": ["What the categories for ffcs registration?","What is university core?","What is program core?","What is program elective?","What is university elective?"],
+         "responses": ["There are 4 different categories. University Core - University Core are courses which are common for all branches and mostly will be done in first year and are mandatory for everyone. \n Program Core - Programme Core are courses which are specific for each branch and all are compulsory. \n University Elective - University Electives are courses which you can choose from but are not specific to branch and include management and humanities courses. \n Program Elective - Programme Electives are courses which you can choose from but are specific to each branch."],
+         "context": [""]
+        },
+
+        {"tag": "Seats in each slot",
+         "patterns": ["How many seats are available under one teacher?","How many seats are allotted for each slot?","How many students are there in one class?","How many students can register under the same faculty?"],
+         "responses": ["There are a total of 70 seats allotted for each slot/teacher."],
+         "context": [""]
+        },
+
+        {"tag": "LTPJC",
+         "patterns": ["What is LTPJC?","What is the full form of LTPJC?"],
+         "responses": ["The LTPJC system is used for credit distribution of courses in VIT University.\nL= Lectures given during class by the professor.\nT= Tutorial, also class based with more emphasis on problem solving\nP= Practical i.e. Lab Classes\nJ= Project, introduced from 2015-16 academic year\nC is the total credits of a course"],
+         "context": [""]
+        }
+
+]
+}
